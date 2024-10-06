@@ -1,173 +1,119 @@
-# `*` TailwindCSS Classes
+# **`*`** **TailwindCSS Classes**
 
-## `1.` font-family
-
+## **`1.`** **font-family**
+<!-- Classes -->
 > * `font-sans`
+`font-serif`
+`font-mono`
 
-> * `font-serif`
-
-> * `font-mono`
-
-## `2.` color
-
+## **`2.`** **color**
+<!-- Classes -->
 > * `text-blue-500` (font-color)
+`bg-red-400` (background-color)
+`border-green-600` (border-color)
 
-> * `bg-red-400` (background-color)
-
-> * `border-green-600` (border-color)
-
-## `3.` text-alignment
-
+## **`3.`** **text-alignment**
+<!-- Classes -->
 > * `text-left`
+`text-center`
+`text-right`
+`text-justify`
 
-> * `text-center`
-
-> * `text-right`
-
-> * `text-justify`
-
-## `4.` font-weight
-
+## **`4.`** **font-weight**
+<!-- Classes -->
 > * `font-thin`
+`font-extralight`
+`font-light`
+`font-normal`
+`font-medium`
+`font-semibold`
+`font-bold`
+`font-extrabold`
 
-> * `font-extralight`
-
-> * `font-light`
-
-> * `font-normal`
-
-> * `font-medium`
-
-> * `font-semibold`
-
-> * `font-bold`
-
-> * `font-extrabold`
-
-## `5.` display
-
+## **`5.`** **display**
+<!-- Classes -->
 > * `block`
+`inline-block`
+`inline`
+`flex`
+`inline-flex`
+`grid`
+`inline-grid`
+`hidden`
 
-> * `inline-block`
+## **`6.`** **margin**
+<!-- Classes -->
+> * `m-size`
+`mt-size`
+`mr-size`
+`mb-size`
+`ml-size`
+`mx-size`
+`my-size`
 
-> * `inline`
+## **`7.`** **padding**
+<!-- Classes -->
+> * `p-size`
+`pt-size`
+`pr-size`
+`pb-size`
+`pl-size`
+`px-size`
+`py-size`
 
-> * `flex`
-
-> * `inline-flex`
-
-> * `grid`
-
-> * `inline-grid`
-
-> * `hidden`
-
-## `6.` margin
-
-> * `m-{size}`
-
-> * `mt-{size}`
-
-> * `mr-{size}`
-
-> * `mb-{size}`
-
-> * `ml-{size}`
-
-> * `mx-{size}`
-
-> * `my-{size}`
-
-## `7.` padding
-
-> * `p-{size}`
-
-> * `pt-{size}`
-
-> * `pr-{size}`
-
-> * `pb-{size}`
-
-> * `pl-{size}`
-
-> * `px-{size}`
-
-> * `py-{size}`
-
-## `8.` border-tadius
-
+## **`8.`** **border-tadius**
+<!-- Classes -->
 > * `rounded`
+`rounded-sm`
+`rounded-md`
+`rounded-lg`
+`rounded-xl`
+`rounded-full`
 
-> * `rounded-sm`
-
-> * `rounded-md`
-
-> * `rounded-lg`
-
-> * `rounded-xl`
-
-> * `rounded-full`
-
-## `9.` box-shadow
-
+## **`9.`** **box-shadow**
+<!-- Classes -->
 > * `shadow-sm`
+`shadow`
+`shadow-md`
+`shadow-lg`
+`shadow-xl`
+`shadow-2xl`
 
-> * `shadow`
-
-> * `shadow-md`
-
-> * `shadow-lg`
-
-> * `shadow-xl`
-
-> * `shadow-2xl`
-
-## `10.` flexbox
-`>` **flex-direction**
-
+## **`10.`** **flexbox**
+#### **`>`** flex-direction
+<!-- Classes -->
 > * `flex-row`
+`flex-col`
+`flex-row-reverse`
+`flex-col-reverse`
 
-> * `flex-col`
-
-> * `flex-row-reverse`
-
-> * `flex-col-reverse`
-
-`>` **justify-content**
-
+#### **`>`** justify-content
+<!-- Classes -->
 > * `justify-start`
+`justify-center`
+`justify-end`
+`justify-between`
+`justify-around`
 
-> * `justify-center`
-
-> * `justify-end`
-
-> * `justify-between`
-
-> * `justify-around`
-
-`>` **align-items**
-
+#### **`>`** align-item
+<!-- Classes -->
 > * `items-start`
+`items-center`
+`items-end`
+`items-baseline`
+`items-stretch`
 
-> * `items-center`
+## **`11.`** **grid**
+#### **`>`** grid-template-column 
+<!-- Class -->
+> * `grid-cols-number`
 
-> * `items-end`
+#### **`>`** grid-template-row
+<!-- Class -->
+> * `grid-rows-number`
 
-> * `items-baseline`
-
-> * `items-stretch`
-
-## `11.` grid
-`>` **grid-template-columns** 
-
-> * `grid-cols-{number}`
-
-`>` **grid-template-rows** 
-
-> * `grid-rows-{number}`
-
-`>` **gap**
-
-> * `gap-{size}`
-> `gap-x-{size}`
-> `gap-y-{size}`
+#### **`>`** gap
+<!-- Classes -->
+> * `gap-size`
+`gap-x-size`
+`gap-y-size`
