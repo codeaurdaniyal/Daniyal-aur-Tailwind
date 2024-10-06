@@ -1,4 +1,4 @@
-## Standard Tailwind Setup with CLI
+## `*` Setup Tailwind with CLI
 
 > `1.` Initialize **package.json** : `npm inti -y`
 
