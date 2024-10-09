@@ -10,4 +10,8 @@
 
 > 3. Install **dependencies** : `npm install`
 
-> 4. Now **Enjoy**! 😊
+> 4. Run **Project** : `npx tailwindcss -i ./src/tailwind-setup.css -o ./dist/website.css --watch`
+
+> 5. Contribute by adding new sections to the website and receive credit for your work 💖
+
+> 6. Now **Enjoy**! 😊

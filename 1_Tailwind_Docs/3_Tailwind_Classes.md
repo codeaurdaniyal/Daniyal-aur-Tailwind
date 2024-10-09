@@ -61,7 +61,7 @@
 `px-size`
 `py-size`
 
-## **`8.`** **border-tadius**
+## **`8.`** **border-radius**
 <!-- Classes -->
 > * `rounded`
 `rounded-sm`
