@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="behavior-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,245 +11,323 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="./website.css" />
   </head>
-  <body>
-    <!-- Html Code -->
-    <main class="h-full w-full relative font-poppin overflow-hidden">
-      
-      <!-- Section One Start -->
-      <div class="bg-black-l-1 h-screen w-screen flex p-5 overflow-clip">
-        
-        <!-- Left Portion Start -->
-        <div class="text-white h-full w-1/2 flex flex-col justify-center mr-16 z-[1]">
-          <span class="bg-zinc-800 text-zinc-200 moveable-div-before moveable-div-after after:animate-moveright h-fit w-fit inline-block relative text-sm py-2 px-6 overflow-clip rounded-3xl"><span class="relative z-[3]">Utility First Framework</span></span>
-          <h1 class="text-6xl font-semibold mt-5 mb-4"><span class="block whitespace-nowrap mb-3">Build great</span><span class="block whitespace-nowrap">using Tailwind</span></h1>
-          <p>Tailwind CSS is a utility-first CSS framework that allows developers to design custom user interfaces efficiently</p>
-          <a class="bg-slate-50 w-fit mt-5 overflow-clip rounded-md" href="https://www.youtube.com/@codeaurdaniyal"><button class="bg-sky-50 text-zinc-900 hover:bg-slate-200 hover:text-zinc-800 text-sm border-none outline-none py-[.70rem] group px-7">Check out for more <i class="ri-youtube-fill group-hover:text-red-600 ml-[.12rem]"></i></button></a>
-        </div>  
-        <!-- Left Portion End -->
-        
-        <!-- Right Portion Start -->
-        <div class="shadow-before shadow-after h-full w-full flex justify-center items-center gap-6 relative overflow-clip">
+  <body class="h-full w-full bg-black-bg-dark-light-1">
+
+    <!-- Main Container -->
+    <main class="h-fit max-w-[1420px] w-full relative font-poppin mx-auto overflow-x-clip">
+
+      <!-- Header Start -->
+      <header class="bg-black-bg-dark-light-3 h-[5rem] w-full relative flex items-center justify-space-between px-10 rounded-b-xl z-[3]">
+        <div class="text-white text-2xl font-medium text-nowrap"><span class="bg-custom-gradient-1 text-transparent bg-clip-text"><i class="ri-building-3-fill"></i></span> Practice Tailwind</div>
+        <div class="text-white text-sm flex gap-4">
+          <a class="bg-white-bg-l-opacity-0.7 py-[0.55rem] px-4 opacity-40 transition-opacity duration-300 hover:opacity-80 rounded-md" href="#Home">Home <i class="ri-home-4-fill"></i></a>
+          <a class="bg-white-bg-l-opacity-0.7 py-[0.55rem] px-4 opacity-40 transition-opacity duration-300 hover:opacity-80 rounded-md" href="#Contact">Contact <i class="ri-chat-3-fill"></i></a>
+        </div>
+        <div><a class="text-black text-sm font-semibold text-nowrap" href="https://github.com/codeaurdaniyal/Daniyal-aur-Tailwind"><button class="bg-custom-gradient-1 hover:opacity-90 py-[0.60rem] px-5 rounded-lg overflow-clip"><span></span><span>View Documents &nbsp; <i class="ri-folder-6-fill"></i></span></button></a></div>
+      </header>
+      <!-- Header End -->
+
+      <!-- Main Wrapper For Sections Or Other Start -->
+      <div class="px-6 h-fit w-full overflow-x-clip mt-[-1.6rem]">
+
+        <!-- Section One Start -->
+        <section id="Home" class="min-h-[650px] w-full flex items-center">
           
-          <!-- First Slider Start -->
-          <div class="h-full w-fit flex flex-col gap-6 relative animate-movedown">
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-1.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind made my life so much easier! I love how customizable it is, and I can tweak designs super quickly</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+          <!-- Left Portion Start -->
+          <div class="text-white h-full w-1/2 flex flex-col justify-center mr-16 z-[1]">
+            <span class="bg-zinc-800 text-zinc-200 moveable-div-before moveable-div-after after:animate-moveright h-fit w-fit inline-block relative text-sm py-2 px-6 text-nowrap overflow-clip rounded-3xl"><span class="relative z-[2]">Utility First Framework</span></span>
+            <h1 class="text-6xl font-semibold mt-5 mb-4"><span class="block text-nowrap mb-3">Build great</span><span class="block text-nowrap">using Tailwind</span></h1>
+            <p>Tailwind CSS is a utility-first CSS framework that allows developers to design custom user interfaces efficiently</p>
+            <a class="bg-slate-50 text-zinc-900 hover:bg-slate-200 hover:text-zinc-800  h-fit w-fit transition-all duration-300 font-semibold text-sm mt-5 text-nowrap overflow-clip rounded-md" href="https://www.youtube.com/@codeaurdaniyal"><button class="border-none outline-none py-[0.70rem] group px-7">How to create this Website <i class="ri-youtube-fill group-hover:text-red-600 ml-[0.12rem duration-300"></i></button></a>
+          </div>  
+          <!-- Left Portion End -->
+          
+          <!-- Right Portion Start -->
+          <div class="shadow-before shadow-after max-h-[580px] w-full flex justify-center items-center gap-6 relative overflow-y-clip">
+            
+            <!-- First Slider Start -->
+            <div class="h-full w-fit flex flex-col gap-6 relative animate-movedown">
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-1.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind made my life so much easier! I love how customizable it is, and I can tweak designs super quickly</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-2.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Using Tailwind is a breeze. The utility classes are a game-changer, I barely touch custom CSS anymore!</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-3.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">I can prototype in no time with Tailwind. It’s perfect for testing out ideas without overthinking the structure.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-1.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind made my life so much easier! I love how customizable it is, and I can tweak designs super quickly</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-2.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Using Tailwind is a breeze. The utility classes are a game-changer, I barely touch custom CSS anymore!</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-3.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">I can prototype in no time with Tailwind. It’s perfect for testing out ideas without overthinking the structure.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-1.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind made my life so much easier! I love how customizable it is, and I can tweak designs super quickly</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-2.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Using Tailwind is a breeze. The utility classes are a game-changer, I barely touch custom CSS anymore!</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-3.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">I can prototype in no time with Tailwind. It’s perfect for testing out ideas without overthinking the structure.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-1.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind made my life so much easier! I love how customizable it is, and I can tweak designs super quickly</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-2.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Using Tailwind is a breeze. The utility classes are a game-changer, I barely touch custom CSS anymore!</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
             </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-2.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Using Tailwind is a breeze. The utility classes are a game-changer, I barely touch custom CSS anymore!</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-3.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">I can prototype in no time with Tailwind. It’s perfect for testing out ideas without overthinking the structure.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-1.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind made my life so much easier! I love how customizable it is, and I can tweak designs super quickly</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-2.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Using Tailwind is a breeze. The utility classes are a game-changer, I barely touch custom CSS anymore!</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-3.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">I can prototype in no time with Tailwind. It’s perfect for testing out ideas without overthinking the structure.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-1.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind made my life so much easier! I love how customizable it is, and I can tweak designs super quickly</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-2.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Using Tailwind is a breeze. The utility classes are a game-changer, I barely touch custom CSS anymore!</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-3.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">I can prototype in no time with Tailwind. It’s perfect for testing out ideas without overthinking the structure.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-1.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind made my life so much easier! I love how customizable it is, and I can tweak designs super quickly</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-2.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Using Tailwind is a breeze. The utility classes are a game-changer, I barely touch custom CSS anymore!</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-          </div>
-          <!-- First Slider End -->
+            <!-- First Slider End -->
 
-          <!-- Middle Slider Start -->
-          <div class="h-full w-fit flex flex-col justify-end gap-6 relative animate-moveup">
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Daniyal-aur-Code.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Daniyal aur Code</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind keeps my code clean and organized. I no longer worry about messy, repetitive CSS</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+            <!-- Middle Slider Start -->
+            <div class="h-full w-fit flex flex-col justify-end gap-6 relative animate-moveup">
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Daniyal-aur-Code.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Daniyal aur Code</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind keeps my code clean and organized. I no longer worry about messy, repetitive CSS</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-4.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The documentation is so clear and detailed. Even as a beginner, I never felt lost while learning Tailwind.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-5.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">I love how responsive Tailwind is! I can adjust designs for mobile, tablet, and desktop with minimal effort.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Daniyal-aur-Code.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Daniyal aur Code</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind keeps my code clean and organized. I no longer worry about messy, repetitive CSS</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-4.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The documentation is so clear and detailed. Even as a beginner, I never felt lost while learning Tailwind.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-5.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">I love how responsive Tailwind is! I can adjust designs for mobile, tablet, and desktop with minimal effort.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Daniyal-aur-Code.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Daniyal aur Code</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind keeps my code clean and organized. I no longer worry about messy, repetitive CSS</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-4.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The documentation is so clear and detailed. Even as a beginner, I never felt lost while learning Tailwind.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-5.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">I love how responsive Tailwind is! I can adjust designs for mobile, tablet, and desktop with minimal effort.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Daniyal-aur-Code.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Daniyal aur Code</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind keeps my code clean and organized. I no longer worry about messy, repetitive CSS</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-4.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The documentation is so clear and detailed. Even as a beginner, I never felt lost while learning Tailwind.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
             </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-4.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The documentation is so clear and detailed. Even as a beginner, I never felt lost while learning Tailwind.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-5.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">I love how responsive Tailwind is! I can adjust designs for mobile, tablet, and desktop with minimal effort.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Daniyal-aur-Code.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Daniyal aur Code</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind keeps my code clean and organized. I no longer worry about messy, repetitive CSS</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-4.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The documentation is so clear and detailed. Even as a beginner, I never felt lost while learning Tailwind.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-5.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">I love how responsive Tailwind is! I can adjust designs for mobile, tablet, and desktop with minimal effort.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Daniyal-aur-Code.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Daniyal aur Code</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind keeps my code clean and organized. I no longer worry about messy, repetitive CSS</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-4.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The documentation is so clear and detailed. Even as a beginner, I never felt lost while learning Tailwind.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-5.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">I love how responsive Tailwind is! I can adjust designs for mobile, tablet, and desktop with minimal effort.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Daniyal-aur-Code.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Daniyal aur Code</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind keeps my code clean and organized. I no longer worry about messy, repetitive CSS</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-4.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The documentation is so clear and detailed. Even as a beginner, I never felt lost while learning Tailwind.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-          </div>
-          <!-- Middle Slider End -->
+            <!-- Middle Slider End -->
 
-          <!-- Last Slider Start -->
-          <div class="h-full w-fit flex flex-col gap-6 relative animate-movedown">
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h h-full w-full" draggable="false" src="images/Ai-Generated-Image-6.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The community around Tailwind is fantastic. There’s always an update or plugin that enhances the experience.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+            <!-- Last Slider Start -->
+            <div class="h-full w-fit flex flex-col gap-6 relative animate-movedown">
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h h-full w-full" draggable="false" src="images/Ai-Generated-Image-6.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The community around Tailwind is fantastic. There’s always an update or plugin that enhances the experience.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-7.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind's lightweight JIT mode is awesome! My final CSS file only contains what I actually use.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-8.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The consistency Tailwind brings to my projects is a huge plus. My designs stay uniform across pages.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h h-full w-full" draggable="false" src="images/Ai-Generated-Image-6.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The community around Tailwind is fantastic. There’s always an update or plugin that enhances the experience.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-7.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind's lightweight JIT mode is awesome! My final CSS file only contains what I actually use.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-8.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The consistency Tailwind brings to my projects is a huge plus. My designs stay uniform across pages.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h h-full w-full" draggable="false" src="images/Ai-Generated-Image-6.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The community around Tailwind is fantastic. There’s always an update or plugin that enhances the experience.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-7.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind's lightweight JIT mode is awesome! My final CSS file only contains what I actually use.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-8.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The consistency Tailwind brings to my projects is a huge plus. My designs stay uniform across pages.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h h-full w-full" draggable="false" src="images/Ai-Generated-Image-6.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">The community around Tailwind is fantastic. There’s always an update or plugin that enhances the experience.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
+              <div class="bg-black-bg-dark-light-2 shadow-black-bs-0.7 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
+                <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-7.jpg" alt=""></figure>
+                <span class="block text-white font-medium text-[0.9rem] mt-4 mb-2">Demo Name</span>
+                <p class="text-zinc-400 text-[0.9rem]">Tailwind's lightweight JIT mode is awesome! My final CSS file only contains what I actually use.</p>
+                <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
+              </div>
             </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-7.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind's lightweight JIT mode is awesome! My final CSS file only contains what I actually use.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-8.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The consistency Tailwind brings to my projects is a huge plus. My designs stay uniform across pages.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h h-full w-full" draggable="false" src="images/Ai-Generated-Image-6.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The community around Tailwind is fantastic. There’s always an update or plugin that enhances the experience.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-7.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind's lightweight JIT mode is awesome! My final CSS file only contains what I actually use.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-8.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The consistency Tailwind brings to my projects is a huge plus. My designs stay uniform across pages.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h h-full w-full" draggable="false" src="images/Ai-Generated-Image-6.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The community around Tailwind is fantastic. There’s always an update or plugin that enhances the experience.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-7.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind's lightweight JIT mode is awesome! My final CSS file only contains what I actually use.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-8.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The consistency Tailwind brings to my projects is a huge plus. My designs stay uniform across pages.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h h-full w-full" draggable="false" src="images/Ai-Generated-Image-6.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">The community around Tailwind is fantastic. There’s always an update or plugin that enhances the experience.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
-            <div class="bg-black-l-2 shadow-black-100 h-72 w-60 flex flex-col aspect-1/2 p-4 rounded-xl">
-              <figure class="h-16 w-16 overflow-clip rounded-[2rem]"><img class="h-full w-full" draggable="false" src="images/Ai-Generated-Image-7.jpg" alt=""></figure>
-              <h2 class="text-white font-medium text-[.9rem] mt-4 mb-2">Demo Name</h2>
-              <p class="text-zinc-400 text-[.9rem]">Tailwind's lightweight JIT mode is awesome! My final CSS file only contains what I actually use.</p>
-              <span class="text-zinc-500 block text-sm mt-auto"><i class="ri-tailwind-css-fill"></i> Thanks Tailwind</span>
-            </div>
+            <!-- Last Slider End -->
+
           </div>
-          <!-- Last Slider End -->
+          <!-- Right Portion End -->
+        
+        </section>
+        <!-- Section One End -->
+
+        <!-- Appreciation for Tailwind -->
+        <div class="h-[500px] w-full flex justify-center items-center">
+
+          <!-- Single Portion Start -->
+          <div class="bg-custom-gradient-1 h-[97%] w-[100%] flex flex-col justify-center items-center p-[5.5rem] rounded-2xl">
+            <span class="bg-custom-gradient-2 text-black-c-l-1 shadow-black-bs-0.2 text-5xl mb-3 py-1 px-9 rounded-[2.8rem]"><i class="ri-tailwind-css-fill"></i></span>
+            <h2 class="text-black-c-l-1 text-[3.2rem] text-center font-[700] mb-1">Look how cool Tailwind CSS is</h2>
+            <p class="text-black-c-l-1 text-lg text-center px-36">As a utility-first CSS framework, it provides low-level utility classes that allow developers to build custom designs without being constrained by pre-defined components. With over 675,375 websites using Tailwind CSS</p>
+          </div>
+          <!-- Single Portion End -->
 
         </div>
-        <!-- Right Portion End -->
-      
+        <!-- Appreciation for Tailwind -->
+
+        <!-- Section Three Start -->
+        <section id="Contact" class="h-[650px] w-full flex items-center py-1 px-12">
+
+            <!-- First Portion Start -->
+            <div class="text-white h-full w-full flex flex-col justify-center">
+              <h3 class="text-[2.70rem] font-medium text-nowrap">Get in <span class="bg-custom-gradient-1 text-transparent bg-clip-text">Touch</span></h3>
+              <h4 class="text-[1.10rem] mt-1 mb-7 text-nowrap"><span class="block text-nowrap">Let's align <i class="ri-exchange-2-fill"></i> our constellations! Reach out and let the</span><span class="block">magic of collaboration illuminate our skies</span></h4>
+              <div class="w-[35rem] grid gap-4 grid-cols-2">
+                <div class="h-fit w-full relative col-span-1"><label class="absolute" for="first-name"></label><input id="first-name" class="bg-black-bg-dark-light-3 shadow-black-bs-0.7 w-full border-none outline-none p-3 rounded-lg" type="text" placeholder="First Name" /></div>
+                <div class="h-fit w-full relative col-span-1"><label class="absolute" for="last-name"></label><input id="last-name" class="bg-black-bg-dark-light-3 shadow-black-bs-0.7 w-full border-none outline-none p-3 rounded-lg" type="text" placeholder="Last Name" /></div>
+                <div class="h-fit w-full relative col-span-2"><label class="absolute" for="Email"></label><input id="Email" class="bg-black-bg-dark-light-3 shadow-black-bs-0.7 w-full border-none outline-none p-3 rounded-lg" type="text" placeholder="Email"></div>
+                <div class="h-fit w-full relative col-span-2"><label class="absolute" for="Phone Number"></label><input id="Phone Number" class="bg-black-bg-dark-light-3 shadow-black-bs-0.7 w-full border-none outline-none p-3 rounded-lg" type="text" placeholder="Phone Number" /></div>
+                <div class="h-fit w-full relative col-span-2"><label class="absolute" for="Message"></label><textarea id="Message" class="bg-black-bg-dark-light-3 shadow-black-bs-0.7 h-[8rem] w-full border-none outline-none p-3 rounded-lg resize-none scrollbar-width-none" type="text" placeholder="Write some mesage"></textarea></div>
+                <button class="bg-white text-black hover:opacity-80 w-full font-semibold border-none outline-none py-3 col-span-2 rounded-lg">Send it to me <i class="ri-send-plane-fill"></i></button>
+              </div>
+            </div>
+            <!-- First Portion End -->
+
+            <!-- Second Portion End -->
+            <div class="h-full w-full flex items-center justify-end"><figure class="h-[29rem] w-[33rem] relative rounded-xl overflow-clip"><span class="bg-black-bg-dark-light-3 text-white absolute py-2 px-3 top-2 left-2 rounded-lg"><i class="ri-tailwind-css-fill"></i></span><img class="h-full w-full" draggable="false" src="./images/TailwindCSS-Ai-Generated-Image.png" alt="TailwindCSS Ai generated Image" /></figure></div>
+            <!-- Second Portion End -->
+
+        </section>
+        <!-- Section Three Start -->
+
       </div>
-      <!-- Section One End -->
+      <!-- Main Wrapper For Sections Or Other End -->
+
+      <!-- Footer Start -->
+      <footer class="bg-black-bg-dark-light-3 h-[18.85rem] w-full flex flex-col justify-center items-center rounded-t-xl pt-12">
+
+        <!-- First Portion Start -->
+        <div class="h-fit w-full flex flex-col items-center gap-3">
+          <div class="text-white text-3xl font-medium text-nowrap"><span class="bg-custom-gradient-1 text-transparent bg-clip-text"><i class="ri-building-3-fill"></i></span> Practice Tailwind</div>
+          <p class="text-white text-center px-60">Hey everyone! Feel free to clone my project. Just a heads-up—this site is for learning purposes, so I wouldn't recommend adding it to your resume directly. However, if you're-create it with added new features, feel free to include it. Thanks!</p>
+          <a class="text-black text-sm font-semibold text-nowrap" href="https://github.com/codeaurdaniyal"><button class="bg-custom-gradient-1 hover:opacity-90 py-[0.60rem] px-5 rounded-lg overflow-clip"><span></span><span>Check out my GitHub &nbsp; <i class="ri-github-fill"></i></span></button></a>
+        </div>
+        <!-- First Portion End -->
+        
+        <!-- Second Portion Start -->
+        <div class="bg-white-bg-l-opacity-0.7  h-[3rem] w-full flex justify-center items-center mt-auto">
+          <span class="text-white text-[0.8rem] opacity-50">Feel free to use the content on this website!</span>
+        </div>
+        <!-- Second Portion Start -->
+
+      </footer>
+      <!-- Footer End -->
 
     </main>
-    <!-- Html Code -->
+    <!-- Main Container -->
+
   </body>
 </html>
