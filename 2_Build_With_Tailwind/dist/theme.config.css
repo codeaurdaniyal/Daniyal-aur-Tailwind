@@ -1,0 +1,55 @@
+:root{
+  --color-zinc-900: rgb(22, 22, 22); /* main-web-text-color-1 */
+  --color-zinc-800: rgb(50, 50, 50); /* text-1-on:hover-color */
+  --background-color-zinc-850: rgb(39, 39, 39); /* section-one-title-back-bg-color  */
+  --l-black-contant: rgb(17, 17, 17); /* black-contant-color-inside-lg */
+  --white-contant: white;
+  --slate-1-200: rgb(240, 240, 240); /* main-web-text-color-2 */
+  --black-l-dark-1: rgb(9, 9, 9); /* web-bg-color */
+  --black-l-dark-2: rgb(12, 12, 12); /* card-bg-color */
+  --black-l-dark-3: rgb(234, 234, 234); /* web-text */
+  --black-l-dark-4: rgb(24, 24, 24); /* title */
+  --black-l-dark-5: rgb(14, 14, 14); /* navbar-bg-color, footer-top-bg-color */
+  --black-l-dark-6-input-boxes: rgb(14, 14, 14); /* input-boxes */
+  --white-l-opacity-7: rgba(246, 246, 246, 0.03); /* nav-link-back-bg */
+  --footer-top-bg: rgb(14, 14, 14); /* footer-bg-top */
+  --footer-bottom-bg: rgba(246, 246, 246, 0.03); /* footer-bg-bottom */
+  --white-l-opacity-1: rgba(215, 215, 215, 0.159);
+  --shadow-c-black-1: rgba(0, 0, 0, .7); /* card-shadow */
+  --shadow-c-black-2: rgba(0, 0, 0, .2); /* nav-elements-shadow */
+  --shadow-c-black-3: rgba(0, 0, 0, .2); /* nav-theme-icon */
+  --border-c-1: rgba(25, 25, 25, 0); /* nav-bottom-shadow */
+  --lg-l-blue: rgb(41, 182, 246); /* linear-gradient-color-1 */
+  --lg-white-l-blue: rgb(222, 243, 253); /* linear-gradient-color-2 */
+  --opacity-1: 0.25; /* card-bottom-text */
+  --opacity-2: 0.4; /* footer-bottom-text */
+  --opacity-3: 0.6; /* navlinks */
+  --weight-1: 600;
+}
+
+:root.light-mode{
+  --color-zinc-900: rgb(225, 225, 225); /* main-web-text-color-1 */
+  --color-zinc-800: rgb(232, 232, 232); /* text-1-on:hover-color */
+  --background-color-zinc-850: rgb(216, 216, 216); /* section-one-title-back-bg-color  */
+  --slate-1-200: rgb(19, 19, 19); /* main-web-text-color-2 */
+  --black-l-dark-1: rgb(243, 243, 243); /* web-bg-color */
+  --black-l-dark-2: rgb(241, 241, 241); /* card-bg-color */
+  --black-l-dark-3: rgb(36, 36, 36); /* web-text */
+  --black-l-dark-4: rgb(234, 234, 234); /* title */
+  --black-l-dark-5: rgb(243, 243, 243); /* navbar-bg-color, footer-top-bg-color */
+  --black-l-dark-6-input-boxes: rgb(238, 238, 238); /* input-boxes */
+  --white-l-opacity-7: rgba(17, 17, 17, 0.061); /* nav-link-bg */
+  --footer-top-bg: rgba(185, 185, 185, 0.166); /* footer-bg-top */
+  --footer-bottom-bg: rgba(133, 133, 133, 0.166); /* footer-bg-bottom */
+  --white-l-opacity-1: rgba(116, 116, 116, 0.141);
+  --shadow-c-black-1: rgba(0, 0, 0, 0.294); /* card-shadow */
+  --shadow-c-black-2: rgba(0, 0, 0, 0.2); /* nav-elements-shadow */
+  --shadow-c-black-3: rgba(0, 0, 0, 0.294); /* nav-theme-icon */
+  --border-c-1: rgba(25, 25, 25, 0.103); /* nav-bottom-shadow */
+  --lg-l-blue: rgb(36, 186, 255); /* linear-gradient-color-1 */
+  --lg-white-l-blue: rgb(153, 223, 255); /* linear-gradient-color-2 */
+  --opacity-1: 0.65; /* card-bottom-text */
+  --opacity-2: 0.8; /* footer-bottom-text */
+  --opacity-3: 0.6; /* navlinks */
+  --weight-1: 400;
+}
